@@ -1,0 +1,197 @@
+/* Container for the entire registration form */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height to center content vertically */
+  background: #f0f0f0;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Wrapper for the form content and image */
+.content-wrapper {
+  display: flex;
+  width: 70%; /* Reduced width for the container */
+  max-width: 800px; /* Adjust max-width for a smaller container */
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Styling for the image section */
+.image-section {
+  flex: 1;
+  background: url('https://tse2.mm.bing.net/th?id=OIP.waVccGSl_-u74ZFmtWKrBAHaEo&pid=Api&P=0&h=220') no-repeat center center/cover;
+  position: relative;
+}
+
+/* Overlay on the image with the system title */
+.image-overlay {
+  position: absolute;
+  top: 15px; /* Reduced top margin for overlay */
+  left: 15px; /* Reduced left margin for overlay */
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 8px 16px; /* Reduced padding for the overlay */
+  border-radius: 5px;
+  font-size: 1em; /* Reduced font size */
+}
+
+/* Form section styling */
+.form-section1 {
+  flex: 1;
+  padding: 20px; /* Reduced padding for the form section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the registration form */
+.register-form {
+  width: 100%;
+  max-width: 280px; /* Further reduced max-width */
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Form title styling */
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 15px; /* Reduced margin below title */
+  font-size: 1.5em; /* Reduced font size */
+  color: #333;
+}
+
+/* Styling for form groups */
+.form-group2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Reduced margin between form groups */
+  position: relative;
+}
+
+/* Styling for icons inside the input fields */
+.form-group2 .icon {
+  position: absolute;
+  left: 12px;
+  color: #333;
+  font-size: 1.1em; /* Adjusted icon font size */
+}
+
+/* Input field styling */
+.form-group2 input {
+  width: 100%;
+  padding: 8px 8px 8px 35px; /* Adjusted padding to reduce input height */
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.9em;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s;
+  position: relative;
+}
+
+.form-group2 input:focus {
+  border-color: #28a745;
+  outline: none;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/* Eye icon for password visibility toggle */
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Styling for error messages */
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+/* Styling for the register button */
+.register-button {
+  width: 100%;
+  padding: 8px; /* Reduced padding for the button */
+  border: none;
+  border-radius: 8px;
+  background: #28a745;
+  color: white;
+  font-size: 0.9em; /* Reduced font size */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 15px;
+}
+
+.register-button:hover {
+  background: #218838;
+  transform: scale(1.05);
+}
+
+/* Section for already having an account */
+.already-account {
+  margin-top: 15px; /* Reduced top margin */
+  text-align: center;
+}
+
+/* Styling for the login link */
+.login-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Role Group - Aligning Radio Buttons */
+.role-group {
+  margin: 10px 0; /* Reduced top and bottom margin */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.role-group label {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.role-group input[type="radio"] {
+  margin-right: 10px;
+  transform: scale(1.1); /* Slightly reduced size of the radio button */
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .image-section {
+    display: none; /* Hide the image section on small screens */
+  }
+
+  .form-section {
+    padding: 15px; /* Further reduce padding for smaller screens */
+  }
+
+  .register-form h2 {
+    font-size: 1.4em;
+  }
+
+  .register-button {
+    font-size: 0.8em;
+  }
+}

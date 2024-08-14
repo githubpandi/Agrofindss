@@ -1,0 +1,226 @@
+/* Navbar Styles */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212121; /* Darker background color */
+  padding: 12px 24px; /* Adjusted padding */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Slightly larger shadow */
+}
+
+.navbar-logo a {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo-image {
+  width: 100px;
+  height: auto;
+}
+/* Navbar.css */
+
+/* Existing styles */
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 400px;
+  max-width: 100%;
+}
+
+.modal-content {
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 24px; /* Slightly increased gap */
+  font-size: 16px; /* Adjusted font size */
+  margin-right: 30px; /* Adjusted margin */
+}
+
+.navbar-links li {
+  position: relative;
+}
+
+.navbar-links li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links li a i {
+  margin-right: 6px;
+}
+
+.navbar-links li a:hover {
+  color: #66BB6A; /* Brighter hover color */
+}
+
+/* Dropdown Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown .dropbtn i {
+  margin-right: 6px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #424242; /* Darker dropdown background */
+  min-width: 140px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker shadow */
+  z-index: 1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #FFFFFF;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a i {
+  margin-right: 6px;
+}
+
+.dropdown-content a:hover {
+  background-color: #2E7D32; /* Green hover background */
+}
+
+/* User Profile Styles */
+.user-profile {
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.user-profile i {
+  margin-right: 6px;
+}
+
+/* Modal Styles */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7); /* Darker background */
+}
+
+.modal-content {
+  background-color: #FFFFFF;
+  padding: 24px;
+  border-radius: 8px; /* Slightly more rounded corners */
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.close {
+  color: #AAAAAA;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Dropdown styling for login and signup */
+.auth-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.auth-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #424242; /* Darker dropdown background */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+  z-index: 1;
+  border-radius: 4px; /* Rounded corners */
+}
+
+.auth-dropdown:hover .auth-dropdown-content {
+  display: block;
+}
+
+.auth-dropdown-content li {
+  color: #FFFFFF;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.auth-dropdown-content li:hover {
+  background-color: #2E7D32; /* Green hover background */
+}

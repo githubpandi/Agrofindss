@@ -1,0 +1,123 @@
+.contact-page1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px rgb(31, 30, 30);
+    max-width: 400px;
+    margin: 25px auto;
+    /* margin-left: 1100px; */
+    font-family: 'Arial', sans-serif;
+    border-color: #1a1919d3; 
+    border-style: solid; 
+    border-width: 3px;
+    background-color: rgba(255, 255, 255, 0.523);
+  }
+  
+  .contact-page1 h1 {
+    text-align: center;
+    /* color: #4caf50; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 2.5em;
+    color: #325a11;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #131212;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #756e6e;
+    font-size: 16px;
+  }
+  
+  .form-group input[type="file"] {
+    border: none;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .submit-button1 {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    margin-right: 150px;
+  }
+  
+  .submit-button1:hover {
+    background-color: #32a938;
+  }
+  
+  .submission-popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(19, 73, 39, 0.9);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeInOut 3s ease-in-out;
+    z-index: 9999;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; transform: translate(-50%, -30px); }
+    10% { opacity: 1; transform: translate(-50%, 0); }
+    90% { opacity: 1; transform: translate(-50%, 0); }
+    100% { opacity: 0; transform: translate(-50%, -30px); }
+  }
+  
+  @media (max-width: 768px) {
+    .contact-page1 {
+      padding: 15px;
+    }
+  
+    .form-group label {
+      font-size: 14px;
+    }
+  
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      font-size: 14px;
+    }
+  
+    .submit-button1 {
+      font-size: 16px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  }
+  

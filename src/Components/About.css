@@ -1,0 +1,237 @@
+/* About Page Styles */
+.about-page {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fafafa;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Hero Section */
+  .about-page .about-hero {
+    background-image: linear-gradient(to bottom right, rgba(147, 164, 130, 0.8), rgba(0, 0, 0, 0.8)), url('https://t3.ftcdn.net/jpg/08/92/96/26/240_F_892962690_gFXK423P8S2SaxDRTI85Myok5H9rtG01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 0 0 0px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .about-page .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+    /* background: rgba(125, 123, 123, 0.5); */
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+  }
+  
+  .about-page .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+  
+  .about-page .hero-content p {
+    font-size: 0.5em;
+    margin-top: 10px;
+  }
+  
+  /* Our Mission Section */
+  .about-page .mission-section {
+    padding: 60px 20px;
+    background-color: #e6f2e6;
+    border-radius: 12px;
+    margin: 0 auto 40px;
+    max-width: 1000px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-page .mission-section h2 {
+    font-size: 2.5em;
+    color: #4b830d;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .about-page .mission-section p {
+    font-size: 1.3em;
+    color: #555;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Features Section */
+  .about-page .features-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    margin: 0 auto 40px;
+    border-radius: 12px;
+    max-width: 1200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-page .features-section h2 {
+    font-size: 2.5em;
+    color: #4b830d;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .about-page .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .about-page .feature-card {
+    background-color: #e6f2e6;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .about-page .feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-page .feature-card h3 {
+    font-size: 1.8em;
+    color: #4b830d;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .about-page .feature-card p {
+    font-size: 1.3em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Team Section */
+  .about-page .team-section {
+    padding: 60px 20px;
+    background-color: #f0f0f0;
+    margin: 0 auto 40px;
+    border-radius: 12px;
+    max-width: 1000px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-page .team-section h2 {
+    font-size: 2.5em;
+    color: #4b830d;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .about-page .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .about-page .team-member {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .about-page .team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-page .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #4b830d;
+  }
+  
+  .about-page .team-member h3 {
+    font-size: 1.5em;
+    color: #4b830d;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .about-page .team-member p {
+    font-size: 1em;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  /* Call to Action Section */
+  .about-page .cta-section {
+    background-color: #4b830d;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 12px;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-page .cta-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .about-page .cta-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+  }
+  
+  .about-page .cta-button {
+    background-color: #ffffff;
+    color: #4b830d;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .about-page .cta-button:hover {
+    background-color: #e6f2e6;
+    transform: translateY(-3px);
+  }
+  

@@ -1,0 +1,212 @@
+/* Crops Page Styles */
+.crops-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.crops-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.crops-header h1 {
+  font-size: 36px;
+  color: #2e8b57;
+}
+
+.crops-header p {
+  font-size: 18px;
+  color: #555;
+}
+
+.crop-overview {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.overview-content {
+  flex: 1;
+}
+
+.overview-content h2 {
+  font-size: 28px;
+  color: #2e8b57;
+}
+
+.overview-content p {
+  font-size: 18px;
+  color: #333;
+}
+
+.overview-image {
+  max-width: 50%;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.featured-crops {
+  margin-bottom: 40px;
+}
+
+.featured-crops h2 {
+  font-size: 28px;
+  color: #2e8b57;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.crop-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.crop-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  max-width: 320px; /* Increased width for more space */
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.crop-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.crop-card img {
+  width: 100%;
+  height: 150px; /* Fixed height for uniform images */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.crop-card:hover img {
+  transform: scale(1.05);
+}
+
+.crop-card h3 {
+  font-size: 22px;
+  color: #537728;
+  margin-bottom: 10px;
+}
+
+.crop-card p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.learn-more-button {
+  background-color: #537728;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+}
+
+.learn-more-button:hover {
+  background-color: #405e20;
+  transform: translateY(-2px);
+}
+
+/* Crop Management Tips Styles */
+.crop-management-tips {
+  margin-bottom: 40px;
+}
+
+.crop-management-tips h2 {
+  font-size: 28px;
+  color: #2e8b57;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tips-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tip-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.tip-card h4 {
+  font-size: 20px;
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+.tip-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.modal-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.modal-content p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.modal-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.modal-content li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}

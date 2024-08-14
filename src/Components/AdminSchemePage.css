@@ -1,0 +1,75 @@
+.admin-schemes-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 250px; /* Adjust this to match the width of the sidebar */
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .add-scheme-form, .edit-scheme-form {
+    margin-bottom: 30px;
+  }
+  
+  input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 15px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .schemes-list {
+    margin-top: 20px;
+  }
+  
+  .scheme-card {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+  }
+  
+  .scheme-card h3 {
+    margin: 0 0 10px 0;
+    color: #007bff;
+  }
+  
+  .scheme-card p {
+    margin: 0 0 10px 0;
+  }
+  
+  .scheme-card button {
+    margin-right: 5px;
+    background-color: #007bff;
+  }
+  
+  .scheme-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .scheme-card button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .scheme-card button:last-child:hover {
+    background-color: #c82333;
+  }
+  

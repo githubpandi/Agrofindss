@@ -1,0 +1,75 @@
+.user-details-container {
+    margin-left: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 120px;
+}
+
+.user-details-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-weight: 600;
+    text-align: center;
+}
+
+.user-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-details-table th, .user-details-table td {
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 15px;
+}
+
+.main-content {
+    margin-left: 180px;
+    padding: 20px;
+}
+
+.user-details-table th {
+    background-color: #27ae60;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.user-details-table tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.user-details-table tr:hover {
+    background-color: #e1f5e6;
+    cursor: pointer;
+}
+
+.user-details-table td {
+    color: #555;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.user-details-table tr:last-child td {
+    border-bottom: none;
+}
+
+.user-details-table th:first-child, .user-details-table td:first-child {
+    border-radius: 12px 0 0 12px;
+}
+
+.user-details-table th:last-child, .user-details-table td:last-child {
+    border-radius: 0 12px 12px 0;
+}

@@ -1,0 +1,18 @@
+.home1-container {
+    display: flex;
+  }
+  
+  .side-navbar {
+    flex-shrink: 0;
+  }
+  
+  .content {
+    margin-left: 250px; /* Add margin equal to the sidebar width */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjust the width */
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  

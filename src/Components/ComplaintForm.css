@@ -1,0 +1,115 @@
+.complaint-form-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  
+  .form-group1 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group1 label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #34495e;
+    font-size: 16px;
+  }
+  
+  .form-group1 input,
+  .form-group1 textarea,
+  .form-group1 select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #bdc3c7;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus,
+  .form-group select:focus {
+    border-color: #1abc9c;
+    outline: none;
+    box-shadow: 0 0 5px rgba(26, 188, 156, 0.3);
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  button {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #16a085;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  .form-group input[type="file"] {
+    padding: 0;
+    border: none;
+  }
+  
+  .file-upload-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .file-upload-label {
+    display: inline-block;
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .file-upload-label:hover {
+    background-color: #16a085;
+  }
+  
+  .file-upload-text {
+    font-size: 16px;
+    color: #34495e;
+  }
+  
+  .file-upload-input {
+    display: none;
+  }
+  
